@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8FBE891C147055002E9A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBE881C147055002E9A42 /* AppDelegate.swift */; };
+		3E8FBE8B1C147055002E9A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBE8A1C147055002E9A42 /* ViewController.swift */; };
+		3E8FBE8E1C147055002E9A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FBE8C1C147055002E9A42 /* Main.storyboard */; };
+		3E8FBE901C147055002E9A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FBE8F1C147055002E9A42 /* Assets.xcassets */; };
+		3E8FBE931C147055002E9A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8FBE911C147055002E9A42 /* LaunchScreen.storyboard */; };
+		3E8FBE9E1C147055002E9A42 /* UkeTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBE9D1C147055002E9A42 /* UkeTabsTests.swift */; };
+		3E8FBEA91C147055002E9A42 /* UkeTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBEA81C147055002E9A42 /* UkeTabsUITests.swift */; };
+		3E8FBEB91C14A34C002E9A42 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBEB81C14A34C002E9A42 /* Circle.swift */; };
+		3E8FBEBB1C14C344002E9A42 /* Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBEBA1C14C344002E9A42 /* Tap.swift */; };
+		3E8FBEBD1C1509DB002E9A42 /* Fingering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8FBEBC1C1509DB002E9A42 /* Fingering.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8FBE9A1C147055002E9A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8FBE7D1C147054002E9A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8FBE841C147054002E9A42;
+			remoteInfo = UkeTabs;
+		};
+		3E8FBEA51C147055002E9A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8FBE7D1C147054002E9A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8FBE841C147054002E9A42;
+			remoteInfo = UkeTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E8FBE851C147055002E9A42 /* UkeTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkeTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8FBE881C147055002E9A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E8FBE8A1C147055002E9A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E8FBE8D1C147055002E9A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E8FBE8F1C147055002E9A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E8FBE921C147055002E9A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E8FBE941C147055002E9A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8FBE991C147055002E9A42 /* UkeTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkeTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8FBE9D1C147055002E9A42 /* UkeTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeTabsTests.swift; sourceTree = "<group>"; };
+		3E8FBE9F1C147055002E9A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8FBEA41C147055002E9A42 /* UkeTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkeTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8FBEA81C147055002E9A42 /* UkeTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeTabsUITests.swift; sourceTree = "<group>"; };
+		3E8FBEAA1C147055002E9A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8FBEB81C14A34C002E9A42 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		3E8FBEBA1C14C344002E9A42 /* Tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tap.swift; sourceTree = "<group>"; };
+		3E8FBEBC1C1509DB002E9A42 /* Fingering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fingering.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8FBE821C147054002E9A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBE961C147055002E9A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBEA11C147055002E9A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8FBE7C1C147054002E9A42 = {
+			isa = PBXGroup;
+			children = (
+				3E8FBE871C147055002E9A42 /* UkeTabs */,
+				3E8FBE9C1C147055002E9A42 /* UkeTabsTests */,
+				3E8FBEA71C147055002E9A42 /* UkeTabsUITests */,
+				3E8FBE861C147055002E9A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8FBE861C147055002E9A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FBE851C147055002E9A42 /* UkeTabs.app */,
+				3E8FBE991C147055002E9A42 /* UkeTabsTests.xctest */,
+				3E8FBEA41C147055002E9A42 /* UkeTabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8FBE871C147055002E9A42 /* UkeTabs */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FBE881C147055002E9A42 /* AppDelegate.swift */,
+				3E8FBE8A1C147055002E9A42 /* ViewController.swift */,
+				3E8FBE8C1C147055002E9A42 /* Main.storyboard */,
+				3E8FBE8F1C147055002E9A42 /* Assets.xcassets */,
+				3E8FBE911C147055002E9A42 /* LaunchScreen.storyboard */,
+				3E8FBE941C147055002E9A42 /* Info.plist */,
+				3E8FBEB81C14A34C002E9A42 /* Circle.swift */,
+				3E8FBEBA1C14C344002E9A42 /* Tap.swift */,
+				3E8FBEBC1C1509DB002E9A42 /* Fingering.swift */,
+			);
+			path = UkeTabs;
+			sourceTree = "<group>";
+		};
+		3E8FBE9C1C147055002E9A42 /* UkeTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FBE9D1C147055002E9A42 /* UkeTabsTests.swift */,
+				3E8FBE9F1C147055002E9A42 /* Info.plist */,
+			);
+			path = UkeTabsTests;
+			sourceTree = "<group>";
+		};
+		3E8FBEA71C147055002E9A42 /* UkeTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FBEA81C147055002E9A42 /* UkeTabsUITests.swift */,
+				3E8FBEAA1C147055002E9A42 /* Info.plist */,
+			);
+			path = UkeTabsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8FBE841C147054002E9A42 /* UkeTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8FBEAD1C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabs" */;
+			buildPhases = (
+				3E8FBE811C147054002E9A42 /* Sources */,
+				3E8FBE821C147054002E9A42 /* Frameworks */,
+				3E8FBE831C147054002E9A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UkeTabs;
+			productName = UkeTabs;
+			productReference = 3E8FBE851C147055002E9A42 /* UkeTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E8FBE981C147055002E9A42 /* UkeTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8FBEB01C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabsTests" */;
+			buildPhases = (
+				3E8FBE951C147055002E9A42 /* Sources */,
+				3E8FBE961C147055002E9A42 /* Frameworks */,
+				3E8FBE971C147055002E9A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8FBE9B1C147055002E9A42 /* PBXTargetDependency */,
+			);
+			name = UkeTabsTests;
+			productName = UkeTabsTests;
+			productReference = 3E8FBE991C147055002E9A42 /* UkeTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E8FBEA31C147055002E9A42 /* UkeTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8FBEB31C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabsUITests" */;
+			buildPhases = (
+				3E8FBEA01C147055002E9A42 /* Sources */,
+				3E8FBEA11C147055002E9A42 /* Frameworks */,
+				3E8FBEA21C147055002E9A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8FBEA61C147055002E9A42 /* PBXTargetDependency */,
+			);
+			name = UkeTabsUITests;
+			productName = UkeTabsUITests;
+			productReference = 3E8FBEA41C147055002E9A42 /* UkeTabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8FBE7D1C147054002E9A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Seongmin;
+				TargetAttributes = {
+					3E8FBE841C147054002E9A42 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3E8FBE981C147055002E9A42 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3E8FBE841C147054002E9A42;
+					};
+					3E8FBEA31C147055002E9A42 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3E8FBE841C147054002E9A42;
+					};
+				};
+			};
+			buildConfigurationList = 3E8FBE801C147054002E9A42 /* Build configuration list for PBXProject "UkeTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E8FBE7C1C147054002E9A42;
+			productRefGroup = 3E8FBE861C147055002E9A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8FBE841C147054002E9A42 /* UkeTabs */,
+				3E8FBE981C147055002E9A42 /* UkeTabsTests */,
+				3E8FBEA31C147055002E9A42 /* UkeTabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8FBE831C147054002E9A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FBE931C147055002E9A42 /* LaunchScreen.storyboard in Resources */,
+				3E8FBE901C147055002E9A42 /* Assets.xcassets in Resources */,
+				3E8FBE8E1C147055002E9A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBE971C147055002E9A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBEA21C147055002E9A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8FBE811C147054002E9A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FBEBB1C14C344002E9A42 /* Tap.swift in Sources */,
+				3E8FBE8B1C147055002E9A42 /* ViewController.swift in Sources */,
+				3E8FBE891C147055002E9A42 /* AppDelegate.swift in Sources */,
+				3E8FBEBD1C1509DB002E9A42 /* Fingering.swift in Sources */,
+				3E8FBEB91C14A34C002E9A42 /* Circle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBE951C147055002E9A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FBE9E1C147055002E9A42 /* UkeTabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8FBEA01C147055002E9A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FBEA91C147055002E9A42 /* UkeTabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E8FBE9B1C147055002E9A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8FBE841C147054002E9A42 /* UkeTabs */;
+			targetProxy = 3E8FBE9A1C147055002E9A42 /* PBXContainerItemProxy */;
+		};
+		3E8FBEA61C147055002E9A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8FBE841C147054002E9A42 /* UkeTabs */;
+			targetProxy = 3E8FBEA51C147055002E9A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E8FBE8C1C147055002E9A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8FBE8D1C147055002E9A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E8FBE911C147055002E9A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8FBE921C147055002E9A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E8FBEAB1C147055002E9A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E8FBEAC1C147055002E9A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E8FBEAE1C147055002E9A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkeTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E8FBEAF1C147055002E9A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkeTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E8FBEB11C147055002E9A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UkeTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkeTabs.app/UkeTabs";
+			};
+			name = Debug;
+		};
+		3E8FBEB21C147055002E9A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UkeTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkeTabs.app/UkeTabs";
+			};
+			name = Release;
+		};
+		3E8FBEB41C147055002E9A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UkeTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UkeTabs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E8FBEB51C147055002E9A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UkeTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UkeTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UkeTabs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8FBE801C147054002E9A42 /* Build configuration list for PBXProject "UkeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8FBEAB1C147055002E9A42 /* Debug */,
+				3E8FBEAC1C147055002E9A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8FBEAD1C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8FBEAE1C147055002E9A42 /* Debug */,
+				3E8FBEAF1C147055002E9A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E8FBEB01C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8FBEB11C147055002E9A42 /* Debug */,
+				3E8FBEB21C147055002E9A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E8FBEB31C147055002E9A42 /* Build configuration list for PBXNativeTarget "UkeTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8FBEB41C147055002E9A42 /* Debug */,
+				3E8FBEB51C147055002E9A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E8FBE7D1C147054002E9A42 /* Project object */;
+}
